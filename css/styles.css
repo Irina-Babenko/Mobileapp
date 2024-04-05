@@ -191,11 +191,32 @@ address {
 }
 
 .features-list {
-    flex-wrap: wrap;
-    gap: 44px;
+   
 }
 
-.features-item {}
+.img-planet {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.features-item {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 44px;
+}
+
+.features-item:last-child{
+    margin-bottom: 0;
+}
+
+.features-item::before {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
 
 .features-marcer-icon {}
 
@@ -205,6 +226,7 @@ address {
     line-height: 1.42857;
     color: #000;
     padding-bottom: 12px;
+    padding-top: 5px;
 }
 
 .features-text-p {
@@ -514,11 +536,29 @@ address {
     background-position: top center;
 }
 
-.icon-list {}
+.icon-list {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 14px;
+}
 
-.icon-item {}
+.icon-item {
+    width: 40px;
+    height: 40px;
+}
 
-.icon-item-linc {}
+.icon-item-linc {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-image: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .icon {
     fill: #FFFFFF;
@@ -526,10 +566,12 @@ address {
 
 .address {
     font-style: normal;
-    margin: 0 auto;
+    margin-bottom: 40px;
 }
 
-.address-list {}
+.address-list {
+    text-align: center;
+}
 
 .address-item {}
 
@@ -548,7 +590,6 @@ address {
     text-align: center;
     color: #fff;
     margin: 0 auto;
-    margin-bottom: 40px;
 }
 
 /* -----FOOTER----*/
@@ -557,4 +598,6 @@ address {
     font-weight: 500;
     font-size: 14px;
     color: #fff;
+    padding-top: 22px;
+    padding-bottom: 22px;
 }
