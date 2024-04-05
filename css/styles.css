@@ -1,0 +1,360 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #000;
+    background-color: #06071b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    font-style: normal;
+}
+
+.container {
+    max-width: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+/* -----HEADER-----*/
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    justify-content: space-between;
+    align-items: baseline;
+    text-decoration: none;
+    background-color: #06071b;
+    background-image: linear-gradient(99deg, rgba(0, 197, 235, 0.3) 0%, rgba(181, 68, 254, 0.3) 100%);
+}
+
+.container {}
+
+
+.heder-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.heder-nav {}
+
+.header-logo {
+    font-weight: 400;
+    font-size: 28px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.open-menu-btn {
+    padding: 0;
+    line-height: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.modal-close-icon {}
+
+/* -----HERO-----*/
+
+.main {}
+
+.hero {
+    /*margin-bottom: 127px;*/
+    background-color: #06071b; 
+    background-image: url(../images/iphone-hero-bg.png);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    max-width: 320px;
+    height: 486px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {}
+
+.hero-wrap {}
+
+.hero-title {
+    padding-top: 100px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.hero-subtitle {
+    padding-top: 12px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+
+.hero-list {
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.hero-item {}
+
+.marker-icon {}
+
+.hero-text {
+    font-size: 12px;
+    color: #fff;
+}
+
+.download-btn {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 200px;
+    border: none;
+    padding: 12px 60px;
+    background-image: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* -----FEATURES-----*/
+
+.features {
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container {}
+
+.features-title {
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.features-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.42857;
+    text-align: center;
+    color: #000;
+}
+
+.features-img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.features-list {
+    flex-wrap: wrap;
+    gap: 44px;
+}
+
+.features-item {}
+
+.features-marcer-icon {}
+
+.features-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #000;
+    padding-bottom: 12px;
+}
+
+.features-text-p {
+    font-weight: 500;
+    font-size: 12px;
+    color: #000;
+}
+
+/* -----VIDEO-ACTION----*/
+
+.video-action {
+    border-color: #06071b; 
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container {}
+
+.action-title {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.action-text {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+.social-icon {}
+
+.video-img {
+    
+}
+
+/* -----TEAM----*/
+
+.team {
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container {}
+
+.tiam-title {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 24px;
+}
+
+.tiam-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.42857;
+    text-align: center;
+    color: #000;
+    margin-bottom: 24px;
+}
+
+.team-list {
+    
+}
+
+.tiam-item {
+    margin-bottom: 24px;
+}
+
+.team-border {
+    width: 280px;
+    background-color: #06071B;
+    background-image: linear-gradient(318deg, rgba(0, 197, 235, 0.5) 0%, rgba(181, 68, 254, 0.5) 100%);
+    backdrop-filter: blur(35px);
+    padding: 16px 16px 24px 16px;
+    border-radius: 15px;
+}
+
+.tiam-img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.team-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    padding-top: 24px;
+    margin-bottom: 12px;
+}
+
+.team-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71429;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+/* -----TESTIMONIALS----*/
+
+.testimonials {
+    background-color: #fff;
+}
+
+.container {}
+
+.testimonials-title {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    max-width: 179px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.testimonials-img {
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.testimonials-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+.testimonials-subtitle-p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71429;
+    text-align: center;
+    color: #000;
+    margin-bottom: 24px;
+}
+
+.testimonials-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.42857;
+    text-align: center;
+    color: #000;
+}
