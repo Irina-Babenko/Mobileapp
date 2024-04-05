@@ -78,7 +78,7 @@
           <img
             class="features-img"
             src="./images/features-img.png"
-            alt=""
+            alt="men with laptop"
             width="280px"
             height="409px"
           />
@@ -160,16 +160,35 @@
             download on both Apple and Android devices and is designed to make
             your life easier.
           </p>
-          <svg class="social-icon" width="60" height="60">
-            <use href=""></use>
-          </svg>
-          <svg class="social-icon" width="60" height="60">
-            <use href=""></use>
-          </svg>
+          <div>
+            <ul class="video-list">
+              <li class="video-item">
+                <svg class="social-icon">
+                  <use
+                    href="./images/icons.svg#icon-apple"
+                    width="30"
+                    height="35"
+                    class="icon-img"
+                  ></use>
+                </svg>
+              </li>
+              <li class="video-item">
+                <svg class="social-icon">
+                  <use
+                    href="./images/icons.svg#icon-android"
+                    width="32"
+                    height="36"
+                    class="icon-img"
+                  ></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
           <img
             class="video-img"
+            srcset=""
             src="./images/iphone-video-img.png"
-            alt=""
+            alt="Video oh phone"
             width="280px"
             height="258px"
           />
@@ -192,7 +211,7 @@
                   class="tiam-img"
                   srcset=""
                   src="./images/team-img-1.jpg"
-                  alt=""
+                  alt="photo David Patel "
                   width="248"
                   height="303"
                 />
@@ -205,8 +224,8 @@
                 <img
                   class="tiam-img"
                   srcset=""
-                  src=""
-                  alt=""
+                  src="./images/team-img-2.jpg"
+                  alt="photo Rachel Kim"
                   width="248"
                   height="303"
                 />
@@ -219,8 +238,8 @@
                 <img
                   class="tiam-img"
                   srcset=""
-                  src=""
-                  alt=""
+                  src="./images/team-img-3.jpg"
+                  alt="photo Samantha Chen"
                   width="248"
                   height="303"
                 />
@@ -233,8 +252,8 @@
                 <img
                   class="tiam-img"
                   srcset=""
-                  src=""
-                  alt=""
+                  src="./images/team-img-4.jpg"
+                  alt="photo Andrew Nguyen"
                   width="248"
                   height="303"
                 />
@@ -266,6 +285,111 @@
           </p>
         </div>
       </section>
+      <section class="contact">
+        <div class="container">
+          <h2 class="contact-title">CONTACT US</h2>
+          <div class="becdrop">
+            <form class="modal-form">
+              <div class="modal-field">
+                <label for="user-name" class="modal-label"></label>
+                <div class="modal-input-wrap">
+                  <input
+                    type="text"
+                    name="user-name"
+                    placeholder="Name"
+                    class="modal-input"
+                    required
+                    id="user-name"
+                  />
+                </div>
+              </div>
+              <div class="modal-field">
+                <label for="user-email" class="modal-label"></label>
+                <div class="modal-input-wrap">
+                  <input
+                    type="email"
+                    name="user-email"
+                    placeholder="Email"
+                    class="modal-input"
+                    required
+                    id="user-email"
+                  />
+                </div>
+              </div>
+              <div class="textarea-wrap">
+                <label for="user-comment" class="modal-label"></label>
+                <textarea
+                  name="user-comment"
+                  id="user-comment"
+                  placeholder="Message"
+                  class="user-comment-text"
+                ></textarea>
+              </div>
+              <button type="submit" class="modal-send button-text">
+                SUBMIT
+              </button>
+            </form>
+          </div>
+          <h3 class="contact-subtitle">Get in touch with us</h3>
+          <p class="contact-text-p">
+            Have a question or comment about our app? Get in touch with us using
+            the contact form below and our team will respond shortly.
+          </p>
+          <div class="social-box">
+            <ul class="icon-list">
+              <li class="icon-item">
+                <a class="icon-item-linc" href="">
+                  <svg class="icon" width="40" height="40">
+                    <use href=""></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="icon-item">
+                <a class="icon-item-linc" href="">
+                  <svg class="icon" width="40" height="40">
+                    <use href=""></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="icon-item">
+                <a class="icon-item-linc" href="">
+                  <svg class="icon" width="40" height="40">
+                    <use href=""></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="address">
+            <ul class="address-list">
+              <li class="address-item">
+                <a
+                  class="contact-addres-tel"
+                  href="tel:+xx-xxxx-xxxx-xx"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  >+xx-xxxx-xxxx-xx
+                </a>
+              </li>
+              <li>
+                <a
+                  class="contact-addres-email"
+                  href="mailto:goIteens@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  >goIteens@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <footer class="container">
+        <p class="footer-text">
+          © 2019 GoIteens Template.<br />
+          All Rights Reserved
+        </p>
+      </footer>
     </main>
   </body>
 </html>

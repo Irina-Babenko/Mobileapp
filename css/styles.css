@@ -163,6 +163,7 @@ address {
 
 .features {
     background-color: #fff;
+    /*border-image: url(../images/feu-bg-gr-top.svg);*/
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -215,7 +216,10 @@ address {
 /* -----VIDEO-ACTION----*/
 
 .video-action {
-    border-color: #06071b; 
+    border-color: #06071b;
+    background-image: url(../images/bg-gradient.svg); 
+    background-repeat: no-repeat;
+    background-position: bottom center;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -235,9 +239,41 @@ address {
     font-size: 14px;
     text-align: center;
     color: #fff;
+    margin-bottom: 24px;
 }
 
-.social-icon {}
+.video-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-item {
+    width: 60px;
+    height: 60px;
+}
+
+.social-icon {
+    fill: #FFFFFF;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-image: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12px;
+    padding-left: 15px;
+}
+
+.icon-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
 
 .video-img {
     
@@ -314,6 +350,8 @@ address {
 
 .testimonials {
     background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .container {}
@@ -357,4 +395,166 @@ address {
     line-height: 1.42857;
     text-align: center;
     color: #000;
+}
+
+/* -----CONTAKT----*/
+
+
+.contact {
+    background-color: #06071B;
+    background-image: url(../images/contact-gr-top.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    /*background-image: url(../images/contakt-gr-bottom.svg);*/
+    
+}
+
+.container {}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.becdrop {
+    width: 280px;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.modal-field {
+    margin-bottom: 20px;
+}
+
+.modal-label {
+    display: block;
+    ont-weight: 500;
+    font-size: 14px;
+    color: #939eac;
+    margin-bottom: 12px;
+}
+
+.modal-input-wrap {
+    position: relative;
+}
+
+.modal-input {
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    padding: 11px 8px;
+    background-color: #FFFFFF;
+}
+
+.textarea-wrap {
+    margin-bottom: 20px;
+}
+
+.user-comment-text {
+    font-weight: 500;
+    font-size: 14px;
+    color: #939eac;
+    height: 220px;
+    width: 100%;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 12px 8px;
+    outline: transparent;
+    resize: none;
+}
+
+.modal-send {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 181px;
+    border: none;
+    padding: 12px 60px;
+    background-image: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.button-text {}
+
+.contact-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact-text-p {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 49px;
+}
+
+.social-box {
+    background-image: url(../images/contakt-gr-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.icon-list {}
+
+.icon-item {}
+
+.icon-item-linc {}
+
+.icon {
+    fill: #FFFFFF;
+}
+
+.address {
+    font-style: normal;
+    margin: 0 auto;
+}
+
+.address-list {}
+
+.address-item {}
+
+.contact-addres-tel {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+
+.contact-addres-email {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+/* -----FOOTER----*/
+
+.footer-text {
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
 }
