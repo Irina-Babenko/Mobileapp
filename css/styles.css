@@ -87,6 +87,7 @@ address {
     background-color: transparent;
     cursor: pointer;
     border: none;
+    fill: #fff;
 }
 
 .modal-close-icon {}
@@ -110,6 +111,8 @@ address {
     margin-right: auto;
 }
 
+
+
 .container {}
 
 .hero-wrap {}
@@ -128,8 +131,6 @@ address {
 }
 
 .hero-list {
-    flex-wrap: wrap;
-    gap: 8px;
     padding-top: 20px;
     padding-bottom: 40px;
 }
@@ -191,7 +192,6 @@ address {
 }
 
 .features-list {
-   
 }
 
 .img-planet {
@@ -221,7 +221,6 @@ address {
 .features-marcer-icon {}
 
 .features-subtitle {
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.42857;
     color: #000;
@@ -249,7 +248,6 @@ address {
 .container {}
 
 .action-title {
-    font-weight: 700;
     font-size: 20px;
     text-align: center;
     color: #fff;
@@ -282,6 +280,7 @@ address {
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    cursor: pointer;
     background-image: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
     display: flex;
     justify-content: center;
@@ -294,6 +293,7 @@ address {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     margin: 0 auto;
 }
 
@@ -312,7 +312,6 @@ address {
 .container {}
 
 .tiam-title {
-    font-weight: 700;
     font-size: 20px;
     text-align: center;
     color: #000;
@@ -351,7 +350,6 @@ address {
 }
 
 .team-subtitle {
-    font-weight: 700;
     font-size: 18px;
     text-align: center;
     color: #fff;
@@ -379,7 +377,6 @@ address {
 .container {}
 
 .testimonials-title {
-    font-weight: 700;
     font-size: 20px;
     text-align: center;
     color: #000;
@@ -395,7 +392,6 @@ address {
 }
 
 .testimonials-subtitle {
-    font-weight: 700;
     font-size: 18px;
     text-align: center;
     color: #000;
@@ -434,7 +430,6 @@ address {
 .container {}
 
 .contact-title {
-    font-weight: 700;
     font-size: 20px;
     text-align: center;
     color: #fff;
