@@ -298,7 +298,7 @@ address {
 }
 
 .video-img {
-    
+    margin: 0 auto;
 }
 
 /* -----TEAM----*/
@@ -596,3 +596,47 @@ address {
     padding-top: 22px;
     padding-bottom: 22px;
 }
+
+/* -----MEDIA-768----*/
+
+@media screen and (min-width: 768px) {
+    .container {
+    max-width: 768px;
+    }
+
+    /*heder------------------*/
+
+    .hero { 
+        background-image: url(../images/iphone-bg-hero-tab.png);
+        background-size: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        max-width: 320px;
+        height: 486px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-title {
+        padding-top: 60px;
+        font-size: 40px;
+        text-align: left;
+        width: 442px;
+        }
+
+
+    }
+
+
+
+
+
+
+/* -----MEDIA-1280----*/
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
